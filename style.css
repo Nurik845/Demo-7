@@ -1,0 +1,114 @@
+body {
+  background-color: whitesmoke;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  background-color: white;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.one {
+  display: flex;
+  justify-content: center;
+}
+.babki {
+  margin-top: 23px;
+  margin-right: 7px;
+}
+.two {
+  background-color: palegreen;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+.three {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.tn {
+  height: 30px;
+  margin-left: 25px;
+  width: 340px;
+}
+.amount-container {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.a {
+  height: 30px;
+  width: 280px;
+  text-align: center;
+}
+.decrease-btn,
+.increase-btn {
+  height: 30px;
+  width: 30px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.decrease-btn:hover,
+.increase-btn:hover {
+  background-color: darkgreen;
+}
+.four {
+  margin-top: 10px;
+}
+.btn {
+  justify-content: center;
+  border-radius: 5px;
+  display: flex;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 350px;
+  margin-left: 25px;
+}
+.plus {
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.btn:hover {
+  background-color: darkgreen;
+}
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: palegreen;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+.transaction span {
+  font-size: 16px;
+}
+.delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.delete-btn:hover {
+  background-color: darkred;
+}
